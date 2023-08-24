@@ -1,0 +1,12 @@
+apiVersion: v1
+name: Helm-poc
+version: 1.0.0
+
+keywords:
+  - helm
+
+dependencies: 
+  - name: Helm-poc.yaml
+    version: 1.0.0
+    repository: https://github.com/Sraavi1309/Helm-POC.git
+    
